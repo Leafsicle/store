@@ -5,7 +5,7 @@ class Nav extends Component {
 	render() {
 		return (
 			//  This nav bar was made using Bulma and the tabs
-			<div className="tabs is-boxed is-flex-mobile is-centered is-fullwidth">
+			<div className="tabs is-boxed is-toggle is-flex-mobile is-centered is-fullwidth">
 				<ul>
 					<li>
 						<Link to="/">

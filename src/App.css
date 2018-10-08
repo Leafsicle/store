@@ -8,3 +8,10 @@
 .tabs a{
   color:white;
 }
+.title.is-3{
+  margin-top: 1.3rem;
+}
+p.title.is-3{
+  margin-top: -.1rem;
+  overflow: none;
+}
