@@ -5,13 +5,13 @@ import Data from './Data.json'
 
 class Inventory extends Component {
 	render() {
-		let darkFilter = Data.filter(card => card.prodType === 'Dark Roast')
+		// let darkFilter = Data.filter(card => card.prodType === 'Dark Roast')
 
 		return (
 			<div class="columns is-flex is-multiline is-centered is-mobile featured">
 				<h3 class="title is-3">Full Inventory</h3>
 				<div class="columns is-flex is-multiline is-centered featured">
-					{darkFilter.map(card => {
+					{Data.map(card => {
 						return (
 							<Item
 								name={card.prodName}
