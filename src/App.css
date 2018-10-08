@@ -1,0 +1,10 @@
+.header{
+  margin-bottom: 1.3rem;
+}
+.tabs{
+  background: #363636;
+  font-weight: bolder;
+}
+.tabs a{
+  color:white;
+}
