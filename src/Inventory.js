@@ -1,12 +1,9 @@
 import React, { Component } from 'react'
-import Item from './Item'
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Data from './Data.json'
+import Item from './Item'
 
 class Inventory extends Component {
 	render() {
-		// let darkFilter = Data.filter(card => card.prodType === 'Dark Roast')
-
 		return (
 			<div class="columns is-flex is-multiline is-centered is-mobile featured">
 				<h3 class="title is-3">Full Inventory</h3>
